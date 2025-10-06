@@ -1,0 +1,34 @@
+---
+indexpage:
+  title: StorageGRID -Verwaltung mit der NetApp Konsole
+  summary: Verwalten Sie Ihre StorageGRID -Systeme über die NetApp Konsole mit Grid
+    Manager und nutzen Sie NetApp Datendienste für Backups, Daten-Tiering und mehr.
+  keywords: storagegrid systems, bluexp, data, hybrid, multicloud, netapp console,
+    console
+  lead: Verwalten Sie Ihre StorageGRID -Systeme über die NetApp Konsole mit Grid Manager
+    und nutzen Sie NetApp Datendienste für Backups, Daten-Tiering und mehr.
+  tiles:
+  - title: Erste Schritte
+    links:
+    - title: Entdecken Sie Ihre StorageGRID -Systeme
+      url: task-discover-storagegrid.html
+  - title: StorageGRID -Systeme verwalten
+    links:
+    - title: Sehen Sie sich Ihre StorageGRID -Systeme an
+      url: task-view-storagegrid.html
+    - title: NetApp Datendienste mit StorageGRID nutzen
+      url: task-enable-data-services.html
+    - title: StorageGRID entfernen
+      url: task-remove-storagegrid.html
+  - title: Weitere Informationen
+    links:
+    - title: StorageGRID -Dokumentation für die Verwaltung außerhalb der NetApp Konsole
+      url: https://docs.netapp.com/us-en/storagegrid-118/
+  - title: Blogs und Community
+    links:
+    - title: NetApp Konsole
+      url: https://www.netapp.com/console
+    - title: NetApp Datenservices
+      url: https://www.netapp.com/data-services/
+    - title: NetApp Community
+      url: https://community.netapp.com/

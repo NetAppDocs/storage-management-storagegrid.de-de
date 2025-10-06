@@ -1,0 +1,124 @@
+---
+sidebar: sidebar 
+permalink: task-administer-storagegrid.html 
+keywords: grid manager, advanced view, standard view, use grid manager, gridmanager 
+summary: Verwalten Sie ein StorageGRID -System über die NetApp Konsole mithilfe der erweiterten Ansicht.  Diese Ansicht ermöglicht Ihnen die Verwendung von Grid Manager innerhalb der NetApp Konsole. 
+---
+= StorageGRID mit dem Grid Manager in der NetApp -Konsole verwalten
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Verwalten Sie ein StorageGRID -System von der Konsole aus, indem Sie die erweiterte Ansicht verwenden.  Diese Ansicht ermöglicht Ihnen die Verwendung von Grid Manager von der Konsole aus.
+
+.Erforderliche NetApp Konsolenrolle:
+Speicheradministrator oder Systemintegritätsspezialist.link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["Erfahren Sie mehr über Zugriffsrollen."^]
+
+
+
+== Unterstützte Konfigurationen
+
+Grid Manager ist ab StorageGRID 11.8 in der Konsole verfügbar.
+
+
+
+== Einschränkungen
+
+Die folgenden Grid Manager-Vorgänge sind über die Konsole nicht verfügbar.  Wenn Sie diese Vorgänge ausführen müssen, melden Sie sich direkt beim Grid Manager an.
+
+[cols="1a,2a"]
+|===
+| Grid Manager-Menü | Von der Konsole aus nicht verfügbare Vorgänge 
+
+
+ a| 
+Benutzer
+ a| 
+* Abmeldelink
+* Link zur API-Dokumentation
+* Kennwort ändern
+
+
+
+
+ a| 
+Nodes
+ a| 
+* Sie können nicht über die Registerkarte „Knoten > SANtricity System Manager“ auf SANtricity System Manager zugreifen.
+* Beim Anzeigen von Warnungen können Sie möglicherweise nicht alle Links in den empfohlenen Aktionen auswählen.  Beispielsweise funktionieren Links zu nicht unterstützten Grid Manager-Seiten nicht.
+
+
+
+
+ a| 
+Mieter
+ a| 
+Sie können sich nicht über den Assistenten „Mandanten erstellen“ oder die Seite „Mandanten“ bei einem Mandantenkonto anmelden.
+
+Die Konsole unterstützt den Tenant Manager derzeit nicht.  Obwohl Sie über die Konsole neue Mandantenkonten erstellen können, können sich Mandantenbenutzer nicht über die Konsole bei ihren Konten anmelden.
+
+
+
+ a| 
+ILM
+ a| 
+Link zu Speicherklassen
+
+
+
+ a| 
+Konfiguration
+ a| 
+* Grid-Passwörter
+* Verkehrsklassifizierung > Metriken
+* Sicherheitseinstellungen > Browser-Inaktivitäts-Timeout
+* Einmaliges Anmelden
+* SNMP-Agent > MIB-Datei für BMC Schnittstelle
+
+
+
+
+ a| 
+Wartung
+ a| 
+* Wiederherstellungspaket
+* Software-Update
+
+
+
+
+ a| 
+Support
+ a| 
+* Netztopologie
+* Protokolle
+* Metriken, einschließlich aller Links zu Prometheus-Metriken und Grafana-Dashboards von anderen Stellen in der Benutzeroberfläche.
+* Alle Optionen für Legacy-Alarme
+* Linkkosten
+* NMS-Entitäten
+
+
+|===
+
+
+== Zur erweiterten Ansicht wechseln
+
+Öffnen Sie ein StorageGRID -System und wählen Sie die Option „Erweiterte Ansicht“.
+
+.Schritte
+. Öffnen Sie auf der Seite *Systeme* das StorageGRID -System.
+. Wählen Sie oben rechts *Zur erweiterten Ansicht wechseln*.
+. Verwenden Sie Grid Manager, um das StorageGRID -System zu verwalten.
+. Wählen Sie bei Bedarf „Zur Standardansicht wechseln“ aus, um über die Konsole zur Standardansicht zurückzukehren.
+
+
+
+
+== Hilfe zum Grid Manager erhalten
+
+Wenn Sie Hilfe bei der Verwendung von Grid Manager benötigen, lesen Sie https://docs.netapp.com/us-en/storagegrid-118/admin/index.html["StorageGRID -Dokumentation"^] für schrittweise Anleitungen.

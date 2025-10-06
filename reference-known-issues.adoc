@@ -1,0 +1,35 @@
+---
+sidebar: sidebar 
+permalink: reference-known-issues.html 
+keywords: issues, known issues, bugs, errors, storagegrid, storage grid, storagegrid known issues, netapp console known issues 
+summary: Bekannte Probleme identifizieren Probleme, die Sie möglicherweise daran hindern, diese Version des Produkts erfolgreich zu verwenden. 
+---
+= Bekannte Probleme bei der Verwaltung von StorageGRID in der NetApp -Konsole
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Bekannte Probleme identifizieren Probleme, die Sie möglicherweise daran hindern, diese Version des Produkts erfolgreich zu verwenden.
+
+
+
+== Aktualisierte Anzeigenamen werden nicht in der NetApp Konsole angezeigt
+
+Wenn Sie das Umbenennungsverfahren verwenden, um einen neuen Anzeigenamen für eine Site oder ein Raster zu definieren, wird der neue Anzeigename nicht in der NetApp Konsole angezeigt.  Innerhalb der NetApp Konsole zeigt das System weiterhin den Systemnamen und nicht den neuen Anzeigenamen an.
+
+
+
+== Fehler beim Filtern von Warnungen
+
+Wenn Sie die erweiterte Ansicht verwenden und den Inhalt der Seite „Warnungen“ filtern, tritt ein Fehler auf.
+
+
+
+== Fehler beim Bearbeiten der Grid-Föderation-Verbindung
+
+Bei Verwendung der erweiterten Ansicht kann beim Bearbeiten einer Grid-Föderation-Verbindung ein Gateway-Timeout-Fehler auftreten.

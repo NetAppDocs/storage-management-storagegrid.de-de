@@ -1,0 +1,33 @@
+---
+sidebar: sidebar 
+permalink: task-view-storagegrid.html 
+keywords: storagegrid, cluster, view, alerts, nodes, tenants, capacity, used capacity, free capacity, system ID, domain, IP, object data used, object metadata used, cpu usage, quota utilization, quota 
+summary: Nachdem Sie Ihre StorageGRID -Systeme ermittelt haben, können Sie Details zur Kapazitätsverteilung und den zugehörigen Warnungen, Knoten und Mandanten anzeigen. 
+---
+= Sehen Sie sich Ihre StorageGRID -Systeme an
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Nachdem Sie Ihre StorageGRID -Systeme ermittelt haben, können Sie Details zur Kapazitätsverteilung und den zugehörigen Warnungen, Knoten und Mandanten anzeigen.
+
+.Erforderliche NetApp Konsolenrolle:
+Speicheradministrator oder Systemintegritätsspezialist.link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["Erfahren Sie mehr über die Zugriffsrollen der NetApp Konsole."^]
+
+.Schritte
+. Wählen Sie im Navigationsmenü *Speicher > Verwaltung*.
+. Wählen Sie auf der Seite *Systeme* das StorageGRID -System aus, das Sie anzeigen möchten.
+. Wählen Sie aus den verfügbaren Menüoptionen, um weitere Details zu Ihrem StorageGRID -System anzuzeigen:
++
+** *Übersicht*: Eine detaillierte Ansicht der Kapazitätsverteilung des Systems (genutzte und freie Kapazität), der Anzahl der Systemwarnungen, Knoten und Mandanten und mehr.
+** *Warnungen*: Eine Zusammenfassung der Systemwarnungen, die aktive, gelöste und stummgeschaltete Warnungen umfasst.
+** *Knoten*: Details zum Admin-Knoten, API-Gateway-Knoten und Speicherknoten.  Dazu gehören Prozentsätze für verwendete Objektdaten, verwendete Objektmetadaten und CPU-Auslastung.
+** *Mandanten*: Wichtige Details zu den Mandanten, darunter der verwendete logische Speicherplatz, die Kontingentnutzung, das Kontingent und die Objektanzahl.
+
+
+

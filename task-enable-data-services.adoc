@@ -1,0 +1,40 @@
+---
+sidebar: sidebar 
+permalink: task-enable-data-services.html 
+keywords: storagegrid, cloud sync, cloud backup, backup, back up data, tier data, data tiering, tiering to storagegrid, tiering 
+summary: Nachdem Sie in der NetApp Konsole ein StorageGRID -System entdeckt haben, können Sie die Datendienste von NetApp für Backups, Daten-Tiering und Datensynchronisierung verwenden. 
+---
+= NetApp Datendienste mit StorageGRID nutzen
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Nachdem Sie in der NetApp Konsole ein StorageGRID -System entdeckt haben, können Sie NetApp Datendienste für Backups, Daten-Tiering und Datensynchronisierung verwenden.
+
+* Verwenden Sie NetApp Backup and Recovery, um Daten von Ihren lokalen ONTAP -Systemen auf Objektspeicher in Ihren NetApp StorageGRID -Systemen zu sichern.
++
+Um zu beginnen, gehen Sie auf die Seite *Systeme* und ziehen Sie per Drag & Drop ein lokales ONTAP -System auf Ihr StorageGRID System.
+
++
+https://docs.netapp.com/us-en/bluexp-backup-recovery/task-backup-onprem-private-cloud.html["Erfahren Sie mehr über die Sicherung von lokalen ONTAP -Daten in StorageGRID"^]
+
+* Verwenden Sie NetApp Cloud Tiering, um inaktive Daten automatisch von lokalen ONTAP Clustern auf StorageGRID zu verschieben.
++
+Um zu beginnen, gehen Sie auf die Seite *Systeme* und ziehen Sie per Drag & Drop ein lokales ONTAP -System auf Ihr StorageGRID -System.
+
++
+https://docs.netapp.com/us-en/bluexp-tiering/task-tiering-onprem-storagegrid.html["Erfahren Sie mehr über das Tiering von Daten von lokalen ONTAP -Clustern zu StorageGRID"^]
+
+* Verwenden Sie NetApp Copy and Sync, um Daten mit einem StorageGRID System zu synchronisieren oder von diesem zu erhalten.
++
+Um zu beginnen, gehen Sie auf die Seite *Systeme* und ziehen Sie das Quellsystem per Drag & Drop auf das Zielsystem.  StorageGRID kann entweder die Quelle oder das Ziel sein.
+
++
+https://docs.netapp.com/us-en/bluexp-copy-sync/index.html["Erfahren Sie mehr über NetApp Copy and Sync"^]
+
+

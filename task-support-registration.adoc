@@ -1,0 +1,179 @@
+---
+sidebar: sidebar 
+permalink: task-support-registration.html 
+keywords: support registration, register for support, support, nss account, add nss account, 
+summary: Bevor Sie einen Supportfall beim technischen Support von NetApp eröffnen können, müssen Sie der NetApp Konsole ein NetApp -Support-Site-Konto hinzufügen und sich dann für den Support registrieren. 
+---
+= Für Support registrieren
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+Um technischen Support speziell für die NetApp -Konsole und ihre Speicherlösungen und Datendienste zu erhalten, ist eine Support-Registrierung erforderlich. Eine Support-Registrierung ist auch erforderlich, um wichtige Workflows für Cloud Volumes ONTAP Systeme zu aktivieren.
+
+Durch die Registrierung für den Support wird kein NetApp Support für den Dateidienst eines Cloud-Anbieters aktiviert. Technischen Support für den Dateidienst eines Cloud-Anbieters, seine Infrastruktur oder eine Lösung, die den Dienst nutzt, erhalten Sie unter „Hilfe erhalten“ in der Dokumentation zu diesem Produkt.
+
+* link:https://docs.netapp.com/us-en/storage-management-fsx-ontap/start/concept-fsx-aws.html#getting-help["Amazon FSx für ONTAP"^]
+* link:https://docs.netapp.com/us-en/storage-management-azure-netapp-files/concept-azure-netapp-files.html#getting-help["Azure NetApp Files"^]
+* link:https://docs.netapp.com/us-en/storage-management-google-cloud-netapp-volumes/concept-gcnv.html#getting-help["Google Cloud NetApp Volumes"^]
+
+
+
+
+== Übersicht zur Support-Registrierung
+
+Zur Aktivierung des Supportanspruchs stehen zwei Registrierungsformen zur Verfügung:
+
+* Registrieren Sie die Seriennummer Ihres NetApp Konsolenkontos (Ihre 20-stellige Seriennummer 960xxxxxxxxx, die Sie auf der Seite „Supportressourcen“ in der Konsole finden).
++
+Dies dient als Ihre einzige Support-Abonnement-ID für alle Dienste innerhalb der Konsole. Jedes Konsolenkonto muss registriert werden.
+
+* Registrieren Sie die mit einem Abonnement verknüpften Cloud Volumes ONTAP Seriennummern im Marktplatz Ihres Cloud-Anbieters (dies sind 20-stellige 909201xxxxxxxx-Seriennummern).
++
+Diese Seriennummern werden allgemein als _PAYGO-Seriennummern_ bezeichnet und von der NetApp Konsole zum Zeitpunkt der Bereitstellung von Cloud Volumes ONTAP generiert.
+
+
+
+Durch die Registrierung beider Seriennummerntypen werden Funktionen wie das Öffnen von Support-Tickets und die automatische Fallgenerierung ermöglicht. Die Registrierung wird abgeschlossen, indem Sie der Konsole NetApp Support Site (NSS)-Konten hinzufügen, wie unten beschrieben.
+
+
+
+== Registrieren Sie die NetApp Konsole für den NetApp Support
+
+Um sich für den Support zu registrieren und den Supportanspruch zu aktivieren, muss ein Benutzer in Ihrem NetApp Konsolenkonto seinem Konsolen-Login ein NetApp Support-Site-Konto zuordnen. Wie Sie sich für den NetApp Support registrieren, hängt davon ab, ob Sie bereits über ein NetApp Support Site (NSS)-Konto verfügen.
+
+
+
+=== Bestandskunde mit NSS-Konto
+
+Wenn Sie ein NetApp -Kunde mit einem NSS-Konto sind, müssen Sie sich lediglich über die Konsole für den Support registrieren.
+
+.Schritte
+. Wählen Sie *Administration* > *Anmeldeinformationen*.
+. Wählen Sie *Benutzeranmeldeinformationen*.
+. Wählen Sie *NSS-Anmeldeinformationen hinzufügen* und folgen Sie der Authentifizierungsaufforderung der NetApp Support Site (NSS).
+. Um zu bestätigen, dass der Registrierungsvorgang erfolgreich war, wählen Sie das Hilfesymbol und dann *Support*.
++
+Auf der Seite *Ressourcen* sollte angezeigt werden, dass Ihr Konsolenkonto für den Support registriert ist.
+
++
+Beachten Sie, dass anderen Konsolenbenutzern dieser Support-Registrierungsstatus nicht angezeigt wird, wenn sie ihrem Login kein NetApp Support Site-Konto zugeordnet haben. Dies bedeutet jedoch nicht, dass Ihr Konto nicht für den Support registriert ist. Sofern ein Benutzer in der Organisation diese Schritte befolgt hat, wurde Ihr Konto registriert.
+
+
+
+
+
+=== Bestandskunde, aber kein NSS-Konto
+
+Wenn Sie bereits NetApp -Kunde mit vorhandenen Lizenzen und Seriennummern, aber _keinem_ NSS-Konto sind, müssen Sie ein NSS-Konto erstellen und es mit Ihrem Konsolen-Login verknüpfen.
+
+.Schritte
+. Erstellen Sie ein NetApp Support Site-Konto, indem Sie das https://mysupport.netapp.com/site/user/registration["Registrierungsformular für Benutzer der NetApp Support-Site"^]
++
+.. Achten Sie darauf, die entsprechende Benutzerebene auszuwählen, in der Regel „NetApp -Kunde/Endbenutzer“.
+.. Denken Sie daran, die Seriennummer des Konsolenkontos (960xxxx) zu kopieren, die oben für das Feld „Seriennummer“ verwendet wurde. Dies beschleunigt die Kontobearbeitung.
+
+
+. Verknüpfen Sie Ihr neues NSS-Konto mit Ihrem Konsolen-Login, indem Sie die folgenden Schritte ausführen<<Bestandskunde mit NSS-Konto>> .
+
+
+
+
+=== Ganz neu bei NetApp
+
+Wenn Sie NetApp noch nicht kennen und kein NSS-Konto haben, befolgen Sie die nachstehenden Schritte.
+
+.Schritte
+. Wählen Sie oben rechts in der Konsole das Hilfesymbol und dann *Support* aus.
+. Suchen Sie auf der Support-Registrierungsseite nach der Seriennummer Ihrer Konto-ID.
++
+image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/screenshot-serial-number.png["Ein Screenshot des Hilfemenüs, in dem „Support“ die erste aufgeführte Option ist"]
+
+. Navigieren Sie zu https://register.netapp.com["Support-Registrierungssite von NetApp"^] und wählen Sie *Ich bin kein registrierter NetApp Kunde*.
+. Füllen Sie die Pflichtfelder (mit roten Sternchen gekennzeichnet) aus.
+. Wählen Sie im Feld *Produktlinie* *Cloud Manager* und dann Ihren entsprechenden Abrechnungsanbieter aus.
+. Kopieren Sie die Seriennummer Ihres Kontos aus Schritt 2 oben, schließen Sie die Sicherheitsüberprüfung ab und bestätigen Sie anschließend, dass Sie die globale Datenschutzrichtlinie von NetApp gelesen haben.
++
+Um diese sichere Transaktion abzuschließen, wird umgehend eine E-Mail an das angegebene Postfach gesendet. Überprüfen Sie unbedingt Ihren Spam-Ordner, wenn die Bestätigungs-E-Mail nicht innerhalb weniger Minuten eintrifft.
+
+. Bestätigen Sie die Aktion in der E-Mail.
++
+Durch die Bestätigung wird Ihre Anfrage an NetApp übermittelt und es wird empfohlen, dass Sie ein NetApp Support Site-Konto erstellen.
+
+. Erstellen Sie ein NetApp Support Site-Konto, indem Sie das https://mysupport.netapp.com/site/user/registration["Registrierungsformular für Benutzer der NetApp Support-Site"^]
++
+.. Achten Sie darauf, die entsprechende Benutzerebene auszuwählen, in der Regel „NetApp -Kunde/Endbenutzer“.
+.. Denken Sie daran, die oben für das Seriennummernfeld verwendete Kontoseriennummer (960xxxx) zu kopieren. Dadurch wird die Bearbeitung beschleunigt.
+
+
+
+
+.Nach Abschluss
+NetApp sollte sich während dieses Vorgangs mit Ihnen in Verbindung setzen. Dies ist eine einmalige Onboarding-Übung für neue Benutzer.
+
+Sobald Sie über Ihr NetApp Support Site-Konto verfügen, verknüpfen Sie das Konto mit Ihrem Konsolen-Login, indem Sie die folgenden Schritte ausführen<<Bestandskunde mit NSS-Konto>> .
+
+
+
+== NSS-Anmeldeinformationen für Cloud Volumes ONTAP Support zuordnen
+
+Um die folgenden wichtigen Workflows für Cloud Volumes ONTAP zu aktivieren, müssen Sie Ihrem Konsolenkonto Anmeldeinformationen für die NetApp -Support-Site zuordnen:
+
+* Registrieren von Pay-as-you-go Cloud Volumes ONTAP Systemen für den Support
++
+Die Angabe Ihres NSS-Kontos ist erforderlich, um den Support für Ihr System zu aktivieren und Zugriff auf die technischen Supportressourcen von NetApp zu erhalten.
+
+* Bereitstellen von Cloud Volumes ONTAP mit eigener Lizenz (BYOL)
++
+Die Angabe Ihres NSS-Kontos ist erforderlich, damit die Konsole Ihren Lizenzschlüssel hochladen und das Abonnement für die von Ihnen erworbene Laufzeit aktivieren kann. Hierzu gehören automatische Updates bei Laufzeitverlängerungen.
+
+* Aktualisieren der Cloud Volumes ONTAP -Software auf die neueste Version
+
+
+Die Zuordnung von NSS-Anmeldeinformationen zu Ihrem NetApp -Konsolenkonto unterscheidet sich von der Zuordnung des NSS-Kontos zu einer Konsolenbenutzeranmeldung.
+
+Diese NSS-Anmeldeinformationen sind mit Ihrer spezifischen Konsolenkonto-ID verknüpft. Benutzer, die zur Konsolenorganisation gehören, können über *Support > NSS-Verwaltung* auf diese Anmeldeinformationen zugreifen.
+
+* Wenn Sie über ein Konto auf Kundenebene verfügen, können Sie ein oder mehrere NSS-Konten hinzufügen.
+* Wenn Sie über ein Partner- oder Reseller-Konto verfügen, können Sie ein oder mehrere NSS-Konten hinzufügen, diese können jedoch nicht zusammen mit Konten auf Kundenebene hinzugefügt werden.
+
+
+.Schritte
+. Wählen Sie oben rechts in der Konsole das Hilfesymbol und dann *Support* aus.
++
+image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/screenshot-help-support.png["Ein Screenshot des Hilfemenüs, in dem „Support“ die erste aufgeführte Option ist"]
+
+. Wählen Sie *NSS-Verwaltung > NSS-Konto hinzufügen*.
+. Wenn Sie dazu aufgefordert werden, wählen Sie *Weiter*, um zu einer Microsoft-Anmeldeseite weitergeleitet zu werden.
++
+NetApp verwendet Microsoft Entra ID als Identitätsanbieter für Authentifizierungsdienste speziell für Support und Lizenzierung.
+
+. Geben Sie auf der Anmeldeseite Ihre bei der NetApp Support Site registrierte E-Mail-Adresse und Ihr Kennwort ein, um den Authentifizierungsprozess durchzuführen.
++
+Diese Aktionen ermöglichen der Konsole, Ihr NSS-Konto für Dinge wie Lizenzdownloads, Überprüfung von Software-Upgrades und zukünftige Support-Registrierungen zu verwenden.
+
++
+Beachten Sie Folgendes:
+
++
+** Das NSS-Konto muss ein Konto auf Kundenebene sein (kein Gast- oder temporäres Konto). Sie können mehrere NSS-Konten auf Kundenebene haben.
+** Es kann nur ein NSS-Konto geben, wenn es sich bei diesem Konto um ein Konto auf Partnerebene handelt. Wenn Sie versuchen, NSS-Konten auf Kundenebene hinzuzufügen und ein Konto auf Partnerebene vorhanden ist, erhalten Sie die folgende Fehlermeldung:
++
+„Der NSS-Kundentyp ist für dieses Konto nicht zulässig, da bereits NSS-Benutzer eines anderen Typs vorhanden sind.“
+
++
+Dasselbe gilt, wenn Sie bereits über NSS-Konten auf Kundenebene verfügen und versuchen, ein Konto auf Partnerebene hinzuzufügen.
+
+** Nach erfolgreicher Anmeldung speichert NetApp den NSS-Benutzernamen.
++
+Dies ist eine vom System generierte ID, die Ihrer E-Mail-Adresse zugeordnet ist. Auf der Seite *NSS-Verwaltung* können Sie Ihre E-Mail-Adresse aus demimage:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/icon-nss-menu.png["Ein Symbol mit drei horizontalen Punkten"] Speisekarte.
+
+** Wenn Sie Ihre Anmeldeinformationen aktualisieren müssen, gibt es auch die Option *Anmeldeinformationen aktualisieren* imimage:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/icon-nss-menu.png["Ein Symbol mit drei horizontalen Punkten"] Speisekarte.
++
+Bei Verwendung dieser Option werden Sie aufgefordert, sich erneut anzumelden. Beachten Sie, dass das Token für diese Konten nach 90 Tagen abläuft. Sie werden durch eine entsprechende Benachrichtigung darauf aufmerksam gemacht.
+
+
+
+

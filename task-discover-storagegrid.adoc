@@ -1,0 +1,64 @@
+---
+sidebar: sidebar 
+permalink: task-discover-storagegrid.html 
+keywords: storagegrid, cluster, discover, manage, discovering, discover storagegrid 
+summary: Entdecken Sie die StorageGRID -Systeme in Ihrer lokalen Umgebung und verwalten Sie sie dann direkt von der NetApp Konsole aus mit Grid Manager. 
+---
+= StorageGRID -Systeme zur NetApp Konsole hinzufügen
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Verwalten Sie Ihre StorageGrid-Systeme mit Grid Manager direkt von der NetApp Konsole aus.
+
+.Erforderliche NetApp Konsolenrolle:
+Speicheradministrator oder Systemintegritätsspezialist.link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["Erfahren Sie mehr über die Zugriffsrollen der NetApp Konsole."^]
+
+.Bevor Sie beginnen
+Sie benötigen Folgendes:
+
+* Ein NetApp Console Agent mit Version 3.9.43 oder höher.  Sie müssen über die Rolle des Organisationsadministrators verfügen, um einen Konsolenagenten zu installieren.  Wenn Sie nicht wissen, ob Ihr Unternehmen über einen Konsolenagenten verfügt oder ob Sie einen erstellen müssen, wenden Sie sich an Ihren NetApp Konsolenadministrator. https://docs.netapp.com/us-en/bluexp-setup-admin/task-user-settings.html#contact-your-organization-administrator["Wenden Sie sich an den Administrator Ihrer Organisation."^]
+* Der Domänenname oder die IP-Adresse des Admin-Knotens.
+* Administratoranmeldeinformationen für den Administratorknoten.
+* Ein auf Ihrem StorageGRID -System installiertes Verwaltungsschnittstellenzertifikat.
++
+https://docs.netapp.com/us-en/storagegrid-118/admin/configuring-custom-server-certificate-for-grid-manager-tenant-manager.html#add-a-custom-management-interface-certificate["Erfahren Sie mehr über die Installation eines Management-Schnittstellenzertifikats auf StorageGRID"^]
+
+
+
+.Schritte
+. Wählen Sie im Navigationsmenü *Speicher > Verwaltung*.
+. Wählen Sie *Systeme* aus.
+. Wählen Sie *System hinzufügen* und dann *Vor Ort*.
+. Wählen Sie neben * StorageGRID* die Option *Discover* aus.
+. Geben Sie auf der Seite „StorageGRID-Clusterdetails“ in der Konsole den Domänennamen oder die IP-Adresse des Administratorknotens und die Anmeldeinformationen für den Knoten ein und wählen Sie dann *Hinzufügen* aus.
+. Die Konsole ruft automatisch das Zertifikat der StorageGRID Verwaltungsschnittstelle ab.  Überprüfen Sie auf der Seite „Zertifikat genehmigen“ die Zertifikatsdetails.
+. Um ein anderes Zertifikat zu verwenden, richten Sie es zuerst auf Ihrem StorageGRID -System ein.
++
+.. Befolgen Sie in Ihrem lokalen StorageGRID -System die Anweisungen: https://docs.netapp.com/us-en/storagegrid-118/admin/configuring-custom-server-certificate-for-grid-manager-tenant-manager.html#add-a-custom-management-interface-certificate["Installieren eines Management-Schnittstellenzertifikats auf StorageGRID"^] .
+.. Nachdem Sie das Zertifikat im StorageGRID -System konfiguriert haben, wählen Sie auf der Seite „Zertifikat genehmigen“ in der Konsole die Option „Abbrechen“ aus.
+.. Wählen Sie auf der Seite „StorageGRID-Clusterdetails“ die Option „Hinzufügen“ aus.
+
+
+. Wählen Sie optional *Zertifikat kopieren* aus, um die Details des Zertifikats zu kopieren.  Sie können die Zertifikatsdetails verwenden, um bei Bedarf eine zusätzliche Validierung durchzuführen.
+. Führen Sie einen der folgenden Schritte aus:
++
+.. Wählen Sie *Zertifikat genehmigen*, um das Zertifikat zu verwenden.
++
+Die NetApp Konsole zeigt eine Erfolgsmeldung an und sichert die gesamte Kommunikation zwischen dem StorageGRID Server und dem Konsolenagenten durch Überprüfung des genehmigten Zertifikats.
+
+.. Wählen Sie *Abbrechen*, um den Erkennungsprozess zu beenden, ohne das Zertifikat zu überprüfen.
++
+Sie können beispielsweise *Abbrechen* auswählen, wenn Sie eine Fehlermeldung erhalten, die Sie darüber informiert, dass das StorageGRID -Verwaltungszertifikat aktualisiert werden muss.
+
++
+Um ein Zertifikat zu aktualisieren, gehen Sie zu Ihrem StorageGRID -System, aktualisieren Sie das Zertifikat und starten Sie dann den Erkennungsprozess von der NetApp Konsole aus neu.
+
+
+
+
