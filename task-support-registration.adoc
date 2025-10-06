@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-support-registration.html 
 keywords: support registration, register for support, support, nss account, add nss account, 
-summary: Bevor Sie einen Supportfall beim technischen Support von NetApp eröffnen können, müssen Sie der NetApp Konsole ein NetApp -Support-Site-Konto hinzufügen und sich dann für den Support registrieren. 
+summary: Bevor Sie einen Supportfall beim technischen Support von NetApp eröffnen können, müssen Sie der NetApp Console ein NetApp -Support-Site-Konto hinzufügen und sich dann für den Support registrieren. 
 ---
 = Für Support registrieren
 :allow-uri-read: 
@@ -11,9 +11,9 @@ summary: Bevor Sie einen Supportfall beim technischen Support von NetApp eröffn
 
 
 [role="lead"]
-Um technischen Support speziell für die NetApp -Konsole und ihre Speicherlösungen und Datendienste zu erhalten, ist eine Support-Registrierung erforderlich. Eine Support-Registrierung ist auch erforderlich, um wichtige Workflows für Cloud Volumes ONTAP Systeme zu aktivieren.
+Um technischen Support speziell für die NetApp Console und ihre Speicherlösungen und Datendienste zu erhalten, ist eine Support-Registrierung erforderlich. Eine Support-Registrierung ist auch erforderlich, um wichtige Workflows für Cloud Volumes ONTAP Systeme zu aktivieren.
 
-Durch die Registrierung für den Support wird kein NetApp Support für den Dateidienst eines Cloud-Anbieters aktiviert. Technischen Support für den Dateidienst eines Cloud-Anbieters, seine Infrastruktur oder eine Lösung, die den Dienst nutzt, erhalten Sie unter „Hilfe erhalten“ in der Dokumentation zu diesem Produkt.
+Durch die Registrierung für den Support wird kein NetApp Support für den Dateidienst eines Cloud-Anbieters aktiviert. Technischen Support für den Dateidienst eines Cloud-Anbieters, seine Infrastruktur oder eine Lösung, die den Dienst nutzt, erhalten Sie unter „Hilfe erhalten“ in der Dokumentation des jeweiligen Produkts.
 
 * link:https://docs.netapp.com/us-en/storage-management-fsx-ontap/start/concept-fsx-aws.html#getting-help["Amazon FSx für ONTAP"^]
 * link:https://docs.netapp.com/us-en/storage-management-azure-netapp-files/concept-azure-netapp-files.html#getting-help["Azure NetApp Files"^]
@@ -26,13 +26,13 @@ Durch die Registrierung für den Support wird kein NetApp Support für den Datei
 
 Zur Aktivierung des Supportanspruchs stehen zwei Registrierungsformen zur Verfügung:
 
-* Registrieren Sie die Seriennummer Ihres NetApp Konsolenkontos (Ihre 20-stellige Seriennummer 960xxxxxxxxx, die Sie auf der Seite „Supportressourcen“ in der Konsole finden).
+* Registrieren Sie die Seriennummer Ihres NetApp Console (Ihre 20-stellige Seriennummer 960xxxxxxxxx, die Sie auf der Seite „Supportressourcen“ in der Konsole finden).
 +
 Dies dient als Ihre einzige Support-Abonnement-ID für alle Dienste innerhalb der Konsole. Jedes Konsolenkonto muss registriert werden.
 
 * Registrieren Sie die mit einem Abonnement verknüpften Cloud Volumes ONTAP Seriennummern im Marktplatz Ihres Cloud-Anbieters (dies sind 20-stellige 909201xxxxxxxx-Seriennummern).
 +
-Diese Seriennummern werden allgemein als _PAYGO-Seriennummern_ bezeichnet und von der NetApp Konsole zum Zeitpunkt der Bereitstellung von Cloud Volumes ONTAP generiert.
+Diese Seriennummern werden allgemein als _PAYGO-Seriennummern_ bezeichnet und von der NetApp Console zum Zeitpunkt der Bereitstellung von Cloud Volumes ONTAP generiert.
 
 
 
@@ -40,9 +40,9 @@ Durch die Registrierung beider Seriennummerntypen werden Funktionen wie das Öff
 
 
 
-== Registrieren Sie die NetApp Konsole für den NetApp Support
+== Registrieren Sie die NetApp Console für den NetApp Support
 
-Um sich für den Support zu registrieren und den Supportanspruch zu aktivieren, muss ein Benutzer in Ihrem NetApp Konsolenkonto seinem Konsolen-Login ein NetApp Support-Site-Konto zuordnen. Wie Sie sich für den NetApp Support registrieren, hängt davon ab, ob Sie bereits über ein NetApp Support Site (NSS)-Konto verfügen.
+Um sich für den Support zu registrieren und den Supportanspruch zu aktivieren, muss ein Benutzer in Ihrem NetApp Console seinem Konsolen-Login ein NetApp Support-Site-Konto zuordnen. Wie Sie sich für den NetApp Support registrieren, hängt davon ab, ob Sie bereits über ein NetApp Support Site (NSS)-Konto verfügen.
 
 
 
@@ -89,9 +89,9 @@ Wenn Sie NetApp noch nicht kennen und kein NSS-Konto haben, befolgen Sie die nac
 . Wählen Sie oben rechts in der Konsole das Hilfesymbol und dann *Support* aus.
 . Suchen Sie auf der Support-Registrierungsseite nach der Seriennummer Ihrer Konto-ID.
 +
-image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/screenshot-serial-number.png["Ein Screenshot des Hilfemenüs, in dem „Support“ die erste aufgeführte Option ist"]
+image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/screenshot-serial-number.png["Ein Screenshot des Hilfemenüs, in dem „Support“ die erste aufgeführte Option ist."]
 
-. Navigieren Sie zu https://register.netapp.com["Support-Registrierungssite von NetApp"^] und wählen Sie *Ich bin kein registrierter NetApp Kunde*.
+. Navigieren Sie zu https://register.netapp.com["Support-Registrierungssite von NetApp"^] und wählen Sie *Ich bin kein registrierter NetApp -Kunde*.
 . Füllen Sie die Pflichtfelder (mit roten Sternchen gekennzeichnet) aus.
 . Wählen Sie im Feld *Produktlinie* *Cloud Manager* und dann Ihren entsprechenden Abrechnungsanbieter aus.
 . Kopieren Sie die Seriennummer Ihres Kontos aus Schritt 2 oben, schließen Sie die Sicherheitsüberprüfung ab und bestätigen Sie anschließend, dass Sie die globale Datenschutzrichtlinie von NetApp gelesen haben.
@@ -119,7 +119,7 @@ Sobald Sie über Ihr NetApp Support Site-Konto verfügen, verknüpfen Sie das Ko
 
 == NSS-Anmeldeinformationen für Cloud Volumes ONTAP Support zuordnen
 
-Um die folgenden wichtigen Workflows für Cloud Volumes ONTAP zu aktivieren, müssen Sie Ihrem Konsolenkonto Anmeldeinformationen für die NetApp -Support-Site zuordnen:
+Um die folgenden wichtigen Workflows für Cloud Volumes ONTAP zu aktivieren, müssen Sie Ihrem Konsolenkonto Anmeldeinformationen für die NetApp Support Site zuordnen:
 
 * Registrieren von Pay-as-you-go Cloud Volumes ONTAP Systemen für den Support
 +
@@ -132,7 +132,7 @@ Die Angabe Ihres NSS-Kontos ist erforderlich, damit die Konsole Ihren Lizenzschl
 * Aktualisieren der Cloud Volumes ONTAP -Software auf die neueste Version
 
 
-Die Zuordnung von NSS-Anmeldeinformationen zu Ihrem NetApp -Konsolenkonto unterscheidet sich von der Zuordnung des NSS-Kontos zu einer Konsolenbenutzeranmeldung.
+Die Zuordnung von NSS-Anmeldeinformationen zu Ihrem NetApp Console unterscheidet sich von der Zuordnung des NSS-Kontos zu einer Konsolenbenutzeranmeldung.
 
 Diese NSS-Anmeldeinformationen sind mit Ihrer spezifischen Konsolenkonto-ID verknüpft. Benutzer, die zur Konsolenorganisation gehören, können über *Support > NSS-Verwaltung* auf diese Anmeldeinformationen zugreifen.
 
@@ -143,7 +143,7 @@ Diese NSS-Anmeldeinformationen sind mit Ihrer spezifischen Konsolenkonto-ID verk
 .Schritte
 . Wählen Sie oben rechts in der Konsole das Hilfesymbol und dann *Support* aus.
 +
-image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/screenshot-help-support.png["Ein Screenshot des Hilfemenüs, in dem „Support“ die erste aufgeführte Option ist"]
+image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/screenshot-help-support.png["Ein Screenshot des Hilfemenüs, in dem „Support“ die erste aufgeführte Option ist."]
 
 . Wählen Sie *NSS-Verwaltung > NSS-Konto hinzufügen*.
 . Wenn Sie dazu aufgefordert werden, wählen Sie *Weiter*, um zu einer Microsoft-Anmeldeseite weitergeleitet zu werden.

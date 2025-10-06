@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-enable-data-services.html 
 keywords: storagegrid, cloud sync, cloud backup, backup, back up data, tier data, data tiering, tiering to storagegrid, tiering 
-summary: Nachdem Sie in der NetApp Konsole ein StorageGRID -System entdeckt haben, können Sie die Datendienste von NetApp für Backups, Daten-Tiering und Datensynchronisierung verwenden. 
+summary: Nachdem Sie in der NetApp Console ein StorageGRID -System entdeckt haben, können Sie die Datendienste von NetApp für Backups, Daten-Tiering und Datensynchronisierung verwenden. 
 ---
 = NetApp Datendienste mit StorageGRID nutzen
 :hardbreaks:
@@ -14,16 +14,16 @@ summary: Nachdem Sie in der NetApp Konsole ein StorageGRID -System entdeckt habe
 
 
 [role="lead"]
-Nachdem Sie in der NetApp Konsole ein StorageGRID -System entdeckt haben, können Sie NetApp Datendienste für Backups, Daten-Tiering und Datensynchronisierung verwenden.
+Nachdem Sie in der NetApp Console ein StorageGRID -System entdeckt haben, können Sie NetApp Datendienste für Backups, Daten-Tiering und Datensynchronisierung verwenden.
 
-* Verwenden Sie NetApp Backup and Recovery, um Daten von Ihren lokalen ONTAP -Systemen auf Objektspeicher in Ihren NetApp StorageGRID -Systemen zu sichern.
+* Verwenden Sie NetApp Backup and Recovery , um Daten von Ihren lokalen ONTAP -Systemen auf Objektspeicher in Ihren NetApp StorageGRID -Systemen zu sichern.
 +
 Um zu beginnen, gehen Sie auf die Seite *Systeme* und ziehen Sie per Drag & Drop ein lokales ONTAP -System auf Ihr StorageGRID System.
 
 +
 https://docs.netapp.com/us-en/bluexp-backup-recovery/task-backup-onprem-private-cloud.html["Erfahren Sie mehr über die Sicherung von lokalen ONTAP -Daten in StorageGRID"^]
 
-* Verwenden Sie NetApp Cloud Tiering, um inaktive Daten automatisch von lokalen ONTAP Clustern auf StorageGRID zu verschieben.
+* Verwenden Sie NetApp Cloud Tiering , um inaktive Daten automatisch von lokalen ONTAP Clustern auf StorageGRID zu verschieben.
 +
 Um zu beginnen, gehen Sie auf die Seite *Systeme* und ziehen Sie per Drag & Drop ein lokales ONTAP -System auf Ihr StorageGRID -System.
 

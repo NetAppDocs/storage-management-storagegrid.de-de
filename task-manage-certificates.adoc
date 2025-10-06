@@ -4,7 +4,7 @@ permalink: task-manage-certificates.html
 keywords: storagegrid, certificate, manage, manage interface certificate, refresh certificate, update certificate 
 summary: Da Zertifikate ablaufen können, müssen Sie gelegentlich möglicherweise den Status anzeigen oder ein Zertifikat aktualisieren. 
 ---
-= Anzeigen und Aktualisieren von StorageGRID -Zertifikaten in der NetApp Konsole
+= Anzeigen und Aktualisieren von StorageGRID -Zertifikaten in der NetApp Console
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,10 +14,10 @@ summary: Da Zertifikate ablaufen können, müssen Sie gelegentlich möglicherwei
 
 
 [role="lead"]
-Auf Ihrem StorageGRID -System ist ein Management-Schnittstellenzertifikat erforderlich, bevor Sie das System über die NetApp -Konsole erkennen.  Das Zertifikat stellt eine sichere Verbindung zwischen der Konsole und StorageGRID her.  Da Zertifikate ablaufen können, müssen Sie gelegentlich möglicherweise den Status anzeigen oder ein Zertifikat aktualisieren.
+Auf Ihrem StorageGRID -System ist ein Management-Schnittstellenzertifikat erforderlich, bevor Sie das System über die NetApp Console erkennen.  Das Zertifikat stellt eine sichere Verbindung zwischen der Konsole und StorageGRID her.  Da Zertifikate ablaufen können, müssen Sie gelegentlich möglicherweise den Status anzeigen oder ein Zertifikat aktualisieren.
 
-.Erforderliche NetApp Konsolenrolle:
-Speicheradministrator.link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["Erfahren Sie mehr über die Zugriffsrollen der NetApp Konsole."^]
+.Erforderliche NetApp Console :
+Speicheradministrator.link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["Informieren Sie sich über die Zugriffsrollen der NetApp Console ."^]
 
 
 
@@ -39,11 +39,11 @@ NOTE: Der Zertifikatsstatus wird alle 24 Stunden aktualisiert.
 
 == Aktualisieren des Management-Schnittstellenzertifikats
 
-Wenn der Status Ihres Management-Schnittstellenzertifikats ungültig ist oder Sie eine Benachrichtigung erhalten, dass Ihr Zertifikat abgelaufen ist, müssen Sie es aktualisieren, damit die NetApp Konsole eine Verbindung zu StorageGRID herstellen kann.
+Wenn der Status Ihres Management-Schnittstellenzertifikats ungültig ist oder Sie eine Benachrichtigung erhalten, dass Ihr Zertifikat abgelaufen ist, müssen Sie es aktualisieren, damit die NetApp Console eine Verbindung zu StorageGRID herstellen kann.
 
 .Schritte
 . Gehen Sie zu Ihrem lokalen Grid Manager in StorageGRID und folgen Sie den Anweisungen für https://docs.netapp.com/us-en/storagegrid-118/admin/configuring-custom-server-certificate-for-grid-manager-tenant-manager.html#add-a-custom-management-interface-certificate["Installieren eines Management-Schnittstellenzertifikats auf StorageGRID"] .
-. Wählen Sie im Navigationsmenü der NetApp -Konsole *Storage > Management* aus.
+. Wählen Sie im Navigationsmenü der NetApp Console *Storage > Management* aus.
 . Wählen Sie auf der Seite *Systeme* das StorageGRID -System aus.
 . Wählen Sie das Symbol „Weitere Optionen“ (Kreis mit drei vertikalen Punkten).
 +
