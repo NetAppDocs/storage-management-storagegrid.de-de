@@ -17,7 +17,7 @@ summary: Nachdem Sie Ihre StorageGRID -Systeme ermittelt haben, können Sie Deta
 Nachdem Sie Ihre StorageGRID -Systeme ermittelt haben, können Sie Details zur Kapazitätsverteilung und den zugehörigen Warnungen, Knoten und Mandanten anzeigen.
 
 .Erforderliche NetApp Console :
-Speicheradministrator oder Systemintegritätsspezialist.link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["Informieren Sie sich über die Zugriffsrollen der NetApp Console ."^]
+Speicheradministrator oder Systemintegritätsspezialist. link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["Erfahren Sie mehr über die Zugriffsrollen der NetApp Console"^].
 
 .Schritte
 . Wählen Sie im Navigationsmenü *Speicher > Verwaltung*.

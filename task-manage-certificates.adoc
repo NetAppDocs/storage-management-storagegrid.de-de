@@ -17,7 +17,7 @@ summary: Da Zertifikate ablaufen können, müssen Sie gelegentlich möglicherwei
 Auf Ihrem StorageGRID -System ist ein Management-Schnittstellenzertifikat erforderlich, bevor Sie das System über die NetApp Console erkennen.  Das Zertifikat stellt eine sichere Verbindung zwischen der Konsole und StorageGRID her.  Da Zertifikate ablaufen können, müssen Sie gelegentlich möglicherweise den Status anzeigen oder ein Zertifikat aktualisieren.
 
 .Erforderliche NetApp Console :
-Speicheradministrator.link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["Informieren Sie sich über die Zugriffsrollen der NetApp Console ."^]
+Speicheradministrator. link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["Erfahren Sie mehr über die Zugriffsrollen der NetApp Console"^].
 
 
 
@@ -42,12 +42,12 @@ NOTE: Der Zertifikatsstatus wird alle 24 Stunden aktualisiert.
 Wenn der Status Ihres Management-Schnittstellenzertifikats ungültig ist oder Sie eine Benachrichtigung erhalten, dass Ihr Zertifikat abgelaufen ist, müssen Sie es aktualisieren, damit die NetApp Console eine Verbindung zu StorageGRID herstellen kann.
 
 .Schritte
-. Gehen Sie zu Ihrem lokalen Grid Manager in StorageGRID und folgen Sie den Anweisungen für https://docs.netapp.com/us-en/storagegrid-118/admin/configuring-custom-server-certificate-for-grid-manager-tenant-manager.html#add-a-custom-management-interface-certificate["Installieren eines Management-Schnittstellenzertifikats auf StorageGRID"] .
+. Gehen Sie in StorageGRID zu Ihrem lokalen Grid Manager und folgen Sie den Anweisungen für https://docs.netapp.com/us-en/storagegrid/admin/configuring-custom-server-certificate-for-grid-manager-tenant-manager.html#add-a-custom-management-interface-certificate["Installieren eines Management-Schnittstellenzertifikats auf StorageGRID"] Die
 . Wählen Sie im Navigationsmenü der NetApp Console *Storage > Management* aus.
 . Wählen Sie auf der Seite *Systeme* das StorageGRID -System aus.
-. Wählen Sie das Symbol „Weitere Optionen“ (Kreis mit drei vertikalen Punkten).
+. Wählen Sie das Symbol „Weitere Optionen“ (Kreis mit drei horizontalen Punkten).
 +
-image:screenshot-update-certificate.png["Ein Screenshot des Update-Menüs."]
+image::screenshot-update-certificate.png[Ein Screenshot des Update-Menüs.]
 
 . Wählen Sie *Zertifikat aktualisieren*.
 . Wählen Sie auf der Seite „Zertifikat genehmigen“ die Option „Zertifikat genehmigen“ aus, um das aktualisierte Zertifikat zu verwenden.

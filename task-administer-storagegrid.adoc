@@ -17,7 +17,7 @@ summary: Verwalten Sie ein StorageGRID -System über die NetApp Console mithilfe
 Verwalten Sie ein StorageGRID -System von der Konsole aus, indem Sie die erweiterte Ansicht verwenden.  Diese Ansicht ermöglicht Ihnen die Verwendung von Grid Manager von der Konsole aus.
 
 .Erforderliche NetApp Console :
-Speicheradministrator oder Systemintegritätsspezialist.link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["Erfahren Sie mehr über Zugriffsrollen."^]
+Speicheradministrator oder Systemintegritätsspezialist. link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["Informationen zu Zugriffsrollen"^].
 
 
 
@@ -75,7 +75,6 @@ Link zu Speicherklassen
 Konfiguration
  a| 
 * Grid-Passwörter
-* Verkehrsklassifizierung > Metriken
 * Sicherheitseinstellungen > Browser-Inaktivitäts-Timeout
 * Einmaliges Anmelden
 * SNMP-Agent > MIB-Datei für BMC Schnittstelle
@@ -96,8 +95,8 @@ Wartung
 Support
  a| 
 * Netztopologie
-* Protokolle
-* Metriken, einschließlich aller Links zu Prometheus-Metriken und Grafana-Dashboards von anderen Stellen in der Benutzeroberfläche.
+* Protokollsammlung
+* Alle Links zu Prometheus-Metriken und Grafana-Dashboards
 * Alle Optionen für Legacy-Alarme
 * Linkkosten
 * NMS-Entitäten
@@ -106,15 +105,15 @@ Support
 |===
 
 
-== Zur erweiterten Ansicht wechseln
+== Zum Grid-Manager wechseln
 
-Öffnen Sie ein StorageGRID -System und wählen Sie die Option „Erweiterte Ansicht“.
+Öffnen Sie ein StorageGRID -System und wählen Sie die Option Grid Manager aus.
 
 .Schritte
 . Öffnen Sie auf der Seite *Systeme* das StorageGRID -System.
-. Wählen Sie oben rechts *Zur erweiterten Ansicht wechseln*.
+. Wählen Sie oben rechts *Zum Grid Manager wechseln*.
 . Verwenden Sie Grid Manager, um das StorageGRID -System zu verwalten.
-. Wählen Sie bei Bedarf „Zur Standardansicht wechseln“ aus, um über die Konsole zur Standardansicht zurückzukehren.
+. Wählen Sie gegebenenfalls *Zurück*, um über die Konsole zur Standardansicht zurückzukehren.
 
 
 

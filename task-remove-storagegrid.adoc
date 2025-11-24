@@ -17,7 +17,7 @@ summary: Entfernen Sie ein StorageGRID -System, wenn Sie es nicht mehr über die
 Entfernen Sie ein StorageGRID -System, wenn Sie es nicht mehr über die NetApp Console verwalten möchten.
 
 .Erforderliche NetApp Console :
-Speicheradministrator.link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["Informieren Sie sich über die Zugriffsrollen der NetApp Console ."^]
+Speicheradministrator. link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["Erfahren Sie mehr über die Zugriffsrollen der NetApp Console"^].
 
 Das Entfernen des Systems aus der Konsole hat keine Auswirkungen auf das StorageGRID -System.  Sie können es jederzeit wieder zur Konsole hinzufügen.
 

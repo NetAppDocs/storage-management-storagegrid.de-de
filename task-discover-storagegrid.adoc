@@ -17,12 +17,12 @@ summary: Entdecken Sie die StorageGRID -Systeme in Ihrer lokalen Umgebung und ve
 Verwalten Sie Ihre StorageGrid-Systeme mit Grid Manager direkt von der NetApp Console aus.
 
 .Erforderliche NetApp Console :
-Speicheradministrator oder Systemintegritätsspezialist.link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["Informieren Sie sich über die Zugriffsrollen der NetApp Console ."^]
+Speicheradministrator oder Systemintegritätsspezialist. link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["Erfahren Sie mehr über die Zugriffsrollen der NetApp Console"^].
 
 .Bevor Sie beginnen
 Sie benötigen Folgendes:
 
-* Ein NetApp Console Agent mit Version 3.9.43 oder höher.  Sie müssen über die Rolle des Organisationsadministrators verfügen, um einen Konsolenagenten zu installieren.  Wenn Sie nicht wissen, ob Ihr Unternehmen über einen Konsolenagenten verfügt oder ob Sie einen erstellen müssen, wenden Sie sich an Ihren NetApp Console . https://docs.netapp.com/us-en/bluexp-setup-admin/task-user-settings.html#contact-your-organization-administrator["Wenden Sie sich an den Administrator Ihrer Organisation."^]
+* Ein NetApp Console Agent mit Version 3.9.43 oder höher. Sie müssen über die Rolle des Organisationsadministrators verfügen, um einen Konsolenagenten zu installieren. Wenn Sie nicht wissen, ob Ihre Organisation über einen Console Agent verfügt oder ob ein solcher erstellt werden muss, wenden Sie sich an Ihren NetApp Console Administrator. https://docs.netapp.com/us-en/console-setup-admin/task-user-settings.html#contact-your-organization-administrator["Wenden Sie sich an Ihren Organisationsadministrator."^] Die
 * Der Domänenname oder die IP-Adresse des Admin-Knotens.
 * Administratoranmeldeinformationen für den Administratorknoten.
 * Ein auf Ihrem StorageGRID -System installiertes Verwaltungsschnittstellenzertifikat.
