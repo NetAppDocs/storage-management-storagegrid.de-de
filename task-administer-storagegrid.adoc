@@ -31,7 +31,7 @@ Grid Manager ist ab StorageGRID 11.8 in der Konsole verfügbar.
 
 Die folgenden Grid Manager-Vorgänge sind über die Konsole nicht verfügbar.  Wenn Sie diese Vorgänge ausführen müssen, melden Sie sich direkt beim Grid Manager an.
 
-[cols="1a,2a"]
+[cols="1a,3a"]
 |===
 | Grid Manager-Menü | Von der Konsole aus nicht verfügbare Vorgänge 
 
@@ -120,4 +120,4 @@ Support
 
 == Hilfe zum Grid Manager erhalten
 
-Wenn Sie Hilfe bei der Verwendung von Grid Manager benötigen, lesen Sie https://docs.netapp.com/us-en/storagegrid-118/admin/index.html["StorageGRID -Dokumentation"^] für schrittweise Anleitungen.
+Wenn Sie Hilfe bei der Verwendung von Grid Manager benötigen, lesen Sie bitte weiter. https://docs.netapp.com/us-en/storagegrid/admin/index.html["StorageGRID -Dokumentation"^] für eine Schritt-für-Schritt-Anleitung.

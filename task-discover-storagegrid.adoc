@@ -27,7 +27,7 @@ Sie benötigen Folgendes:
 * Administratoranmeldeinformationen für den Administratorknoten.
 * Ein auf Ihrem StorageGRID -System installiertes Verwaltungsschnittstellenzertifikat.
 +
-https://docs.netapp.com/us-en/storagegrid-118/admin/configuring-custom-server-certificate-for-grid-manager-tenant-manager.html#add-a-custom-management-interface-certificate["Erfahren Sie mehr über die Installation eines Management-Schnittstellenzertifikats auf StorageGRID"^]
+https://docs.netapp.com/us-en/storagegrid/admin/using-storagegrid-security-certificates.html["Erfahren Sie mehr über die Installation eines Management-Schnittstellenzertifikats auf StorageGRID"^]
 
 
 
@@ -40,7 +40,7 @@ https://docs.netapp.com/us-en/storagegrid-118/admin/configuring-custom-server-ce
 . Die Konsole ruft automatisch das Zertifikat der StorageGRID Verwaltungsschnittstelle ab.  Überprüfen Sie auf der Seite „Zertifikat genehmigen“ die Zertifikatsdetails.
 . Um ein anderes Zertifikat zu verwenden, richten Sie es zuerst auf Ihrem StorageGRID -System ein.
 +
-.. Befolgen Sie in Ihrem lokalen StorageGRID -System die Anweisungen: https://docs.netapp.com/us-en/storagegrid-118/admin/configuring-custom-server-certificate-for-grid-manager-tenant-manager.html#add-a-custom-management-interface-certificate["Installieren eines Management-Schnittstellenzertifikats auf StorageGRID"^] .
+.. Befolgen Sie in Ihrem lokalen StorageGRID System die folgenden Anweisungen: https://docs.netapp.com/us-en/storagegrid/admin/using-storagegrid-security-certificates.html["Installieren eines Management-Schnittstellenzertifikats auf StorageGRID"^]Die
 .. Nachdem Sie das Zertifikat im StorageGRID -System konfiguriert haben, wählen Sie auf der Seite „Zertifikat genehmigen“ in der Konsole die Option „Abbrechen“ aus.
 .. Wählen Sie auf der Seite „StorageGRID-Clusterdetails“ die Option „Hinzufügen“ aus.
 
