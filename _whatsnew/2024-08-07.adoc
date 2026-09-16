@@ -4,6 +4,7 @@
 
 
 
+[[new-advanced-view]]
 === Neue erweiterte Ansicht
 
 Ab StorageGRID 11.8 können Sie die vertraute Grid Manager-Oberfläche verwenden, um Ihr StorageGRID -System von BlueXP aus zu verwalten.
@@ -12,6 +13,7 @@ https://docs.netapp.com/us-en/bluexp-storagegrid/task-administer-storagegrid.htm
 
 
 
+[[ability-to-review-and-approve-storagegrid-management-interface-certificate]]
 === Möglichkeit zur Überprüfung und Genehmigung des StorageGRID Verwaltungsschnittstellenzertifikats
 
 Sie haben jetzt die Möglichkeit, ein StorageGRID Verwaltungsschnittstellenzertifikat zu überprüfen und zu genehmigen, wenn Sie das StorageGRID -System von BlueXP aus erkennen.  Sie können auch das neueste StorageGRID Verwaltungsschnittstellenzertifikat in einem erkannten Grid überprüfen und genehmigen.

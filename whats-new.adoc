@@ -18,10 +18,12 @@ Erfahren Sie, was es Neues bei der Verwaltung von StorageGRID -Systemen in der N
 
 
 
+[[06-october-2025]]
 == 06. Oktober 2025
 
 
 
+[[bluexp-is-now-netapp-console]]
 === BlueXP heißt jetzt NetApp Console
 
 Die NetApp Console basiert auf der verbesserten und neu strukturierten BlueXP -Grundlage und ermöglicht die zentrale Verwaltung von NetApp -Speicher und NetApp Data Services in On-Premises- und Cloud-Umgebungen auf Unternehmensniveau. Sie liefert Einblicke in Echtzeit, schnellere Arbeitsabläufe und eine vereinfachte Verwaltung mit hoher Sicherheit und Konformität.
@@ -30,20 +32,24 @@ Einzelheiten zu den Änderungen finden Sie imlink:https://docs.netapp.com/us-en/
 
 
 
+[[12-may-2025]]
 == 12. Mai 2025
 
 
 
+[[netapp-console-access-roles-needed]]
 === Für die NetApp Console werden Zugriffsrollen benötigt.
 
 Sie benötigen nun eine der folgenden Zugriffsrollen, um StorageGRID in der NetApp Console anzuzeigen, zu ermitteln oder zu verwalten: *Organisationsadministrator*, *Ordner- oder Projektadministrator*, *Speicheradministrator* oder *Speichergesundheitsspezialist*.link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html#data-service-roles["Informieren Sie sich über die Zugriffsrollen der NetApp Console ."^]
 
 
 
+[[07-august-2024]]
 == 7. August 2024
 
 
 
+[[new-advanced-view]]
 === Neue erweiterte Ansicht
 
 Ab StorageGRID 11.8 können Sie die vertraute Grid Manager-Oberfläche verwenden, um Ihr StorageGRID -System von BlueXP aus zu verwalten.
@@ -52,6 +58,7 @@ https://docs.netapp.com/us-en/bluexp-storagegrid/task-administer-storagegrid.htm
 
 
 
+[[ability-to-review-and-approve-storagegrid-management-interface-certificate]]
 === Möglichkeit zur Überprüfung und Genehmigung des StorageGRID Verwaltungsschnittstellenzertifikats
 
 Sie haben jetzt die Möglichkeit, ein StorageGRID Verwaltungsschnittstellenzertifikat zu überprüfen und zu genehmigen, wenn Sie das StorageGRID -System von BlueXP aus erkennen.  Sie können auch das neueste StorageGRID Verwaltungsschnittstellenzertifikat in einem erkannten Grid überprüfen und genehmigen.
@@ -60,10 +67,12 @@ https://docs.netapp.com/us-en/bluexp-storagegrid/task-discover-storagegrid.html[
 
 
 
+[[18-september-2022]]
 == 18. September 2022
 
 
 
+[[support-for-storagegrid]]
 === Unterstützung für StorageGRID
 
 Sie können Ihre StorageGRID -Systeme jetzt direkt von BlueXP aus entdecken.  Durch die Entdeckung von StorageGRID erhalten Sie eine vollständige Ansicht der Daten in Ihrer hybriden Multicloud.

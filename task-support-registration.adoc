@@ -22,6 +22,7 @@ Durch die Registrierung für den Support wird kein NetApp Support für den Datei
 
 
 
+[[support-registration-overview]]
 == Übersicht zur Support-Registrierung
 
 Zur Aktivierung des Supportanspruchs stehen zwei Registrierungsformen zur Verfügung:
@@ -40,12 +41,14 @@ Durch die Registrierung beider Seriennummerntypen werden Funktionen wie das Öff
 
 
 
+[[register-netapp-console-for-netapp-support]]
 == Registrieren Sie die NetApp Console für den NetApp Support
 
 Um sich für den Support zu registrieren und den Supportanspruch zu aktivieren, muss ein Benutzer in Ihrem NetApp Console seinem Konsolen-Login ein NetApp Support-Site-Konto zuordnen. Wie Sie sich für den NetApp Support registrieren, hängt davon ab, ob Sie bereits über ein NetApp Support Site (NSS)-Konto verfügen.
 
 
 
+[[existing-customer-with-an-nss-account]]
 === Bestandskunde mit NSS-Konto
 
 Wenn Sie ein NetApp -Kunde mit einem NSS-Konto sind, müssen Sie sich lediglich über die Konsole für den Support registrieren.
@@ -65,6 +68,7 @@ Beachten Sie, dass anderen Konsolenbenutzern dieser Support-Registrierungsstatus
 
 
 
+[[existing-customer-but-no-nss-account]]
 === Bestandskunde, aber kein NSS-Konto
 
 Wenn Sie bereits NetApp -Kunde mit vorhandenen Lizenzen und Seriennummern, aber _keinem_ NSS-Konto sind, müssen Sie ein NSS-Konto erstellen und es mit Ihrem Konsolen-Login verknüpfen.
@@ -81,6 +85,7 @@ Wenn Sie bereits NetApp -Kunde mit vorhandenen Lizenzen und Seriennummern, aber 
 
 
 
+[[brand-new-to-netapp]]
 === Ganz neu bei NetApp
 
 Wenn Sie NetApp noch nicht kennen und kein NSS-Konto haben, befolgen Sie die nachstehenden Schritte.
@@ -89,7 +94,7 @@ Wenn Sie NetApp noch nicht kennen und kein NSS-Konto haben, befolgen Sie die nac
 . Wählen Sie oben rechts in der Konsole das Hilfesymbol und dann *Support* aus.
 . Suchen Sie auf der Support-Registrierungsseite nach der Seriennummer Ihrer Konto-ID.
 +
-image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/screenshot-serial-number.png["Ein Screenshot des Hilfemenüs, in dem „Support“ die erste aufgeführte Option ist."]
+image:https://raw.githubusercontent.com/NetAppDocs/console-family/main/media/screenshot-serial-number.png["Ein Screenshot des Hilfemenüs, in dem „Support“ die erste aufgeführte Option ist."]
 
 . Navigieren Sie zu https://register.netapp.com["Support-Registrierungssite von NetApp"^] und wählen Sie *Ich bin kein registrierter NetApp -Kunde*.
 . Füllen Sie die Pflichtfelder (mit roten Sternchen gekennzeichnet) aus.
@@ -117,6 +122,7 @@ Sobald Sie über Ihr NetApp Support Site-Konto verfügen, verknüpfen Sie das Ko
 
 
 
+[[associate-nss-credentials-for-cloud-volumes-ontap-support]]
 == NSS-Anmeldeinformationen für Cloud Volumes ONTAP Support zuordnen
 
 Um die folgenden wichtigen Workflows für Cloud Volumes ONTAP zu aktivieren, müssen Sie Ihrem Konsolenkonto Anmeldeinformationen für die NetApp Support Site zuordnen:
@@ -143,7 +149,7 @@ Diese NSS-Anmeldeinformationen sind mit Ihrer spezifischen Konsolenkonto-ID verk
 .Schritte
 . Wählen Sie oben rechts in der Konsole das Hilfesymbol und dann *Support* aus.
 +
-image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/screenshot-help-support.png["Ein Screenshot des Hilfemenüs, in dem „Support“ die erste aufgeführte Option ist."]
+image:https://raw.githubusercontent.com/NetAppDocs/console-family/main/media/screenshot-help-support.png["Ein Screenshot des Hilfemenüs, in dem „Support“ die erste aufgeführte Option ist."]
 
 . Wählen Sie *NSS-Verwaltung > NSS-Konto hinzufügen*.
 . Wenn Sie dazu aufgefordert werden, wählen Sie *Weiter*, um zu einer Microsoft-Anmeldeseite weitergeleitet zu werden.
@@ -168,9 +174,9 @@ Dasselbe gilt, wenn Sie bereits über NSS-Konten auf Kundenebene verfügen und v
 
 ** Nach erfolgreicher Anmeldung speichert NetApp den NSS-Benutzernamen.
 +
-Dies ist eine vom System generierte ID, die Ihrer E-Mail-Adresse zugeordnet ist. Auf der Seite *NSS-Verwaltung* können Sie Ihre E-Mail-Adresse aus demimage:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/icon-nss-menu.png["Ein Symbol mit drei horizontalen Punkten"] Speisekarte.
+Dies ist eine systemgenerierte ID, die Ihrer E-Mail-Adresse zugeordnet ist. Auf der Seite *NSS Management* können Sie Ihre E-Mail-Adresse über das image:https://raw.githubusercontent.com/NetAppDocs/console-family/main/media/icon-nss-menu.png["Ein Symbol mit drei horizontalen Punkten"] Menü anzeigen.
 
-** Wenn Sie Ihre Anmeldeinformationen aktualisieren müssen, gibt es auch die Option *Anmeldeinformationen aktualisieren* imimage:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/icon-nss-menu.png["Ein Symbol mit drei horizontalen Punkten"] Speisekarte.
+** Wenn Sie Ihre Anmelde-Credential-Tokens jemals aktualisieren müssen, gibt es im image:https://raw.githubusercontent.com/NetAppDocs/console-family/main/media/icon-nss-menu.png["Ein Symbol mit drei horizontalen Punkten"] Menü auch die Option *Anmeldeinformationen aktualisieren*.
 +
 Bei Verwendung dieser Option werden Sie aufgefordert, sich erneut anzumelden. Beachten Sie, dass das Token für diese Konten nach 90 Tagen abläuft. Sie werden durch eine entsprechende Benachrichtigung darauf aufmerksam gemacht.
 

@@ -17,7 +17,7 @@ summary: Entdecken Sie die StorageGRID -Systeme in Ihrer lokalen Umgebung und ve
 Verwalten Sie Ihre StorageGrid-Systeme mit Grid Manager direkt von der NetApp Console aus.
 
 .Erforderliche NetApp Console :
-Speicheradministrator oder Systemintegritätsspezialist. link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["Erfahren Sie mehr über die Zugriffsrollen der NetApp Console"^].
+Superadministrator, Speicheradministrator oder Systemintegritätsspezialist. link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["Informieren Sie sich über die Zugriffsrollen der NetApp Console ."^]
 
 .Bevor Sie beginnen
 Sie benötigen Folgendes:

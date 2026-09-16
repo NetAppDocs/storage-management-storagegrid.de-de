@@ -1,0 +1,12 @@
+= Unterstützung für StorageGRID 12.1
+:allow-uri-read: 
+
+
+
+
+[[support-for-storagegrid-12-1]]
+=== Unterstützung für StorageGRID 12.1
+
+Das StorageGRID 12.1 System kann jetzt über die NetApp Console verwaltet werden.
+
+https://docs.netapp.com/us-en/storage-management-storagegrid/task-administer-storagegrid.html["Informationen zur Administration von StorageGRID mithilfe der erweiterten Ansicht in der NetApp Console"].

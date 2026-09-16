@@ -18,18 +18,21 @@ Bekannte Probleme identifizieren Probleme, die Sie möglicherweise daran hindern
 
 
 
+[[updated-display-names-dont-appear-in-the-netapp-console]]
 == Aktualisierte Anzeigenamen werden nicht in der NetApp Console angezeigt
 
 Wenn Sie das Umbenennungsverfahren verwenden, um einen neuen Anzeigenamen für eine Site oder ein Grid zu definieren, wird der neue Anzeigename nicht in der NetApp Console angezeigt.  Innerhalb der NetApp Console zeigt das System weiterhin den Systemnamen und nicht den neuen Anzeigenamen an.
 
 
 
+[[error-when-filtering-alerts]]
 == Fehler beim Filtern von Warnungen
 
 Wenn Sie die erweiterte Ansicht verwenden und den Inhalt der Seite „Warnungen“ filtern, tritt ein Fehler auf.
 
 
 
+[[error-when-editing-grid-federation-connection]]
 == Fehler beim Bearbeiten der Grid-Föderation-Verbindung
 
 Bei Verwendung der erweiterten Ansicht kann beim Bearbeiten einer Grid-Föderation-Verbindung ein Gateway-Timeout-Fehler auftreten.

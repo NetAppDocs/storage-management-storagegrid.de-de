@@ -15,6 +15,7 @@ NetApp bietet auf vielfältige Weise Support für die NetApp Console und ihre Cl
 
 
 
+[[get-support-for-a-cloud-provider-file-service]]
 == Erhalten Sie Unterstützung für den Dateidienst eines Cloud-Anbieters
 
 Technischen Support zu einem Dateidienst eines Cloud-Anbieters, seiner Infrastruktur oder einer Lösung, die den Dienst nutzt, finden Sie in der Dokumentation zu diesem Produkt.
@@ -28,6 +29,7 @@ Um technischen Support speziell für NetApp und seine Speicherlösungen und Date
 
 
 
+[[use-self-support-options]]
 == Nutzen Sie Möglichkeiten zur Selbsthilfe
 
 Diese Optionen stehen Ihnen 24 Stunden am Tag, 7 Tage die Woche kostenlos zur Verfügung:
@@ -48,6 +50,7 @@ Treten Sie der NetApp Console Community bei, um aktuelle Diskussionen zu verfolg
 
 
 
+[[create-a-case-with-netapp-support]]
 == Erstellen Sie einen Fall mit dem NetApp Support
 
 Zusätzlich zu den oben genannten Self-Support-Optionen können Sie nach der Aktivierung des Supports mit einem NetApp -Support-Spezialisten zusammenarbeiten, um alle Probleme zu lösen.
@@ -104,6 +107,7 @@ Dieser Fehler könnte bedeuten, dass das NSS-Konto und das damit verknüpfte Unt
 
 
 
+[[manage-your-support-cases]]
 == Verwalten Sie Ihre Supportfälle
 
 Sie können aktive und gelöste Supportfälle direkt von der Konsole aus anzeigen und verwalten. Sie können die mit Ihrem NSS-Konto und Ihrem Unternehmen verknüpften Fälle verwalten.
